@@ -23,7 +23,7 @@ document_analyzer = DocumentAnalyzer()
 quiz_generator = InteractiveQuiz()  # Add this line to initialize quiz generator
 
 # Configure Gemini
-genai.configure(api_key='AIzaSyART7oaAzemGL3hthq6mIgOFRaqjcCkSxc')
+genai.configure(api_key='Gemini_Api_key')
 model = genai.GenerativeModel('gemini-1.5-flash')
 
 # Store analyzed text for quiz generation
